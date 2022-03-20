@@ -27,3 +27,13 @@ public class Tree {
 		return root;
 	}
 	
+	class Node{
+	int data;
+	Node left, right;
+	///constructor of Node class
+	public Node(int data) {
+		this.data=data;
+		left=right=null;
+	}
+}
+	
